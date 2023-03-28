@@ -1,5 +1,5 @@
 # quarkus-simple-config
-This is the manifest description and configuration of the [quarkus-simple](https://github.com/wpernath/quarkus-simple) application. It contains descriptions to create an ArgoApp and it contains the actual application manifest files for the Quarkus-Simple App in stages dev, stage and prod.
+This is the manifest description and configuration of the [quarkus-simple](https://github.com/rafaeltuelho/quarkus-simple) application. It contains descriptions to create an ArgoApp and it contains the actual application manifest files for the Quarkus-Simple App in stages dev, stage and prod.
 
 - `argo/`: Contains all the manifest files to create ArgoCD applications
 - `config/`: Contains all the Kustomized manifests for the actual application itself

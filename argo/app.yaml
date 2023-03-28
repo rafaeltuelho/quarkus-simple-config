@@ -12,7 +12,7 @@ spec:
     directory:
       recurse: true
     path: config/overlays/stage
-    repoURL: https://github.com/wpernath/quarkus-simple-config.git
+    repoURL: https://github.com/rafaeltuelho/quarkus-simple-config.git
     targetRevision: HEAD
     sourceType: Kustomize
   syncPolicy:

@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: simple
-        image: quay.io/wpernath/simple-quarkus:latest
+        image: quay.io/rafaeltuelho/simple-quarkus:latest
         imagePullPolicy: Always
         ports:
           - containerPort: 8080

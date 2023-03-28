@@ -46,5 +46,5 @@ resources:
 - ../../base
 images:
 - digest: sha256:3010150bf8cbb2fe359ba1ab1d691ea7b29bdd71a7a6a3aa37e33c621fcd9f56
-  name: quay.io/wpernath/simple-quarkus:latest
-  newName: quay.io/wpernath/quarkus-simple-wow:1.5.5
+  name: quay.io/rafaeltuelho/simple-quarkus:latest
+  newName: quay.io/rafaeltuelho/quarkus-simple-wow:1.5.5
