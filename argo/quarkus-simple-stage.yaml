@@ -1,21 +1,21 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-simple-quarkus
+  name: quarkus-simple-stage
   namespace: openshift-gitops
 spec:
   destination:
-    namespace: quarkus-simple
+    namespace: quarkus-simple-stage
     server: https://kubernetes.default.svc
   project: default
   source:
-    directory:
-      recurse: true
     path: config/overlays/stage
     repoURL: https://github.com/rafaeltuelho/quarkus-simple-config.git
     targetRevision: HEAD
-    sourceType: Kustomize
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
+    - ServerSideApply=true

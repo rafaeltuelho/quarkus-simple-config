@@ -24,12 +24,6 @@ patches:
     version: v1
 - patch: |-
     - op: replace
-      path: /spec/host
-      value: simple-stage-art-stage.apps-crc.testing
-  target:
-    kind: Route
-- patch: |-
-    - op: replace
       path: /spec/to/name
       value: stage-simple
   target:
