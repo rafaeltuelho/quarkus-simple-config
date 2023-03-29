@@ -25,6 +25,6 @@ kind: Kustomization
 resources:
 - ../../base
 images:
-- digest: sha256:ceda0eeee241ee0f3e1ebc8361ca4a0cfb41be02e3fa92fcc9edfa537ac57c5d
+- digest: sha256:97a32ce12b1bcd53b7ff5b03b7bc3fc75d4c42b97141f939802057b113fcff7d
   name: quay.io/rafaeltuelho/simple-quarkus:latest
   newName: quay.io/rafaeltuelho/quarkus-simple-wow
